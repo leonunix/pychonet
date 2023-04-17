@@ -18,7 +18,7 @@ def _0288E0(edt):
 def _0288E1(edt):
     if len(edt) < 1:
         return None
-    op_mode = _int(edt)
+    op_mode = _int(edt[0])
     values = {0x00: 1,
               0x01: 0.1,
               0x02: 0.01,
